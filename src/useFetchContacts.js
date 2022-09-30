@@ -18,6 +18,7 @@ export default function useFetch() {
       const dataJson = await data.json();
       const contactsPerson = dataJson.results.map((contact) => {
         return {
+          id: Math.random().toString(),
           firstName: contact.name.first,
           lastName: contact.name.last,
           phoneNumber: contact.cell,
