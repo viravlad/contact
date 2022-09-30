@@ -1,0 +1,11 @@
+.container {
+  background-color: rgb(222, 222, 222);
+  margin: auto;
+}
+.grid {
+  display: flex;
+  align-items: center;
+}
+.serachField {
+  width: 40vw;
+}
